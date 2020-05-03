@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(211, 197, 197);
+}
+button.but1 {
+    color: rgb(221, 66, 144);
+    background: none;
+    border: none;
+}
+button.but2 {
+    background-color: rgb(221, 66, 144);
+    color: rgb(211, 197, 197);
+    border-radius: 10px;
+    padding: 10px;
+    width: 140px;
+    border: none;
+}
