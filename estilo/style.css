@@ -54,6 +54,9 @@ a {
     color: rgb(221, 66, 144);
     font-size: 11pt;
 }
+div.link {
+    text-align: right;
+}
 div.ideas {
     display: flex;
 }
