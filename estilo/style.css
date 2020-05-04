@@ -1,6 +1,31 @@
 body {
     background-color: rgb(211, 197, 197);
 }
+div#container {
+    width: 90%;
+    max-width: 980px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+    display:flex;
+}
+section#part1 {
+    width: 300px;
+    font-size: 13pt;
+    margin-right: 40px;
+}
+main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+footer#fot {
+    text-align: center;
+}
+button {
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+}
 button.but1 {
     color: rgb(221, 66, 144);
     background: none;
@@ -13,4 +38,9 @@ button.but2 {
     padding: 10px;
     width: 140px;
     border: none;
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+section#part2 {
+
 }
