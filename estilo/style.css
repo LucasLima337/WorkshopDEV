@@ -21,6 +21,11 @@ main {
 footer#fot {
     text-align: center;
 }
+footer a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 button {
     text-align: center;
     cursor: pointer;
@@ -40,7 +45,8 @@ button.but2 {
     border: none;
     margin-bottom: 40px;
     margin-left: 30px;
+    box-shadow: 5px 5px 10px rgb(201, 60, 159);
 }
 section#part2 {
-
+    
 }
