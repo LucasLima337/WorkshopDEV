@@ -26,6 +26,7 @@ function entrarb2(){
     but2.style.color = 'rgb(211, 197, 197)'
     but2.style.backgroundColor = '#0984e3'
     but2.style.boxShadow = 'none'
+    but2.style.transition = '400ms'
 }
 function sairb2(){
     but2.style.color = 'rgb(211, 197, 197)'
