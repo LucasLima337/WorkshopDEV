@@ -31,6 +31,7 @@ button {
     text-align: center;
     cursor: pointer;
     outline: none;
+    font-weight: bold;
 }
 button.but1 {
     color: rgb(221, 66, 144);
@@ -48,7 +49,7 @@ button.but2 {
     margin-left: 30px;
     box-shadow: 5px 5px 10px rgb(201, 60, 159);
 }
-a {
+a.aa, a.aaa, a.aaaa {
     text-decoration: none;
     font-weight: bold;
     color: rgb(221, 66, 144);
@@ -96,6 +97,82 @@ p, .description {
     margin-bottom: 10px;
     color: rgb(75, 71, 71);
 }
-section#part2 {
 
+#body2 {
+    background-color: rgb(221, 66, 144);
+}
+#container2 {
+    display: flex;
+    justify-content: center;
+}
+#container2 .content {
+    margin-top: 30px;
+    color: white;
+}
+#container2 .content h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.content form {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+form input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    outline: none;
+    box-sizing: border-box;
+}
+form textarea {
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    outline: none;
+    box-sizing: border-box;
+}
+form .pri:nth-child(3) {
+    grid-column: span 2;
+}
+form .pri:nth-child(4) {
+    grid-column: span 2;
+}
+form .pri:nth-child(5) {
+    grid-column: span 2;
+}
+form label {
+    font-weight: 500;
+    line-height: 30px;
+}
+button#but3, button#but4 {
+    background-color: white;
+    color: rgb(221, 66, 144);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    width: 140px;
+    box-shadow: 5px 5px 10px rgb(201, 60, 159);
+    margin-top: 30px;
+}
+div#but33 {
+    grid-column: 2;
+    text-align: right;
+}
+div#principal {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
 }
