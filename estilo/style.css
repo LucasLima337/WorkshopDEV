@@ -176,3 +176,122 @@ div#principal {
     grid-template-columns: 1fr 1fr;
     gap: 25px;
 }
+
+
+/* Final page */
+body#ultimo {
+    background-color: rgb(211, 197, 197);
+    font-family: 'Pacifico', cursive;
+}
+#container3 {
+    width: 1100px;
+    margin: auto;
+}
+#content3 header {
+    text-align: center;
+    margin-top: 50px;
+}
+#content3 header h3 {
+    margin-bottom: -20px;
+    font-size: 12pt;
+    color: gray;
+}
+#content3 header h1 {
+    font-size: 23pt;
+}
+#cab {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#cab img {
+    margin-left: 50px;
+}
+#but {
+    text-align: right;
+    margin-right: 50px;
+}
+button#ini, button#ideas {
+    border: none;
+    background: none;
+    font-weight: bold;
+    font-size: 11pt;
+    cursor: pointer;
+    outline: none;
+}
+button#ini:hover, button#ideas:hover {
+    text-decoration: underline;
+}
+button#novide {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    background-color: rgb(221, 66, 144);
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 140px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 10px rgb(201, 60, 159);
+}
+button#novide:hover {
+    background-color: #0984e3;
+    color: white;
+    transition: 400ms;
+    box-shadow: none;
+}
+#grid1, #grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 50px;
+}
+.cont img {
+    width: 60px;
+    height: 60px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+.cont .ir {
+    margin-top: -10px;
+}
+.cont .ir h3 {
+    font-size: 12pt;
+}
+.cont .ir p {
+    font-size: 11pt;
+    color: gray;
+    margin-top: -10px;
+}
+.ha {
+   margin-top: 20px;
+   margin-bottom: -10px;
+   text-align: right;
+}
+.ha a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(221, 66, 144);
+}
+.ha a:hover {
+    text-decoration: underline;
+}
+.cont {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+}
+footer#final {
+    margin-top: 70px;
+    text-align: center;
+}
+footer#final a {
+    text-decoration: none;
+    font-weight: bold;
+    color: gray;
+}
+footer#final a:hover {
+    color: rgb(221, 66, 144);
+}
