@@ -200,8 +200,8 @@ body#ultimo {
     font-size: 23pt;
 }
 #cab {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
 }
 #cab img {
     margin-left: 50px;
@@ -210,7 +210,7 @@ body#ultimo {
     text-align: right;
     margin-right: 50px;
 }
-button#ini, button#ideas {
+button#ini {
     border: none;
     background: none;
     font-weight: bold;
@@ -218,7 +218,7 @@ button#ini, button#ideas {
     cursor: pointer;
     outline: none;
 }
-button#ini:hover, button#ideas:hover {
+button#ini:hover {
     text-decoration: underline;
 }
 button#novide {
